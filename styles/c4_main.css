@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+header img {
+    float: left;
+}
+header h2 {
+    font-size: 170%;
+    color: #800000;
+    font-weight: bold;
+    margin-left: 30px;
+}
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+main {
+    clear: left;
+}
+main h1 {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+main h2 {
+    color: var(--global-color-1);
+    font-size: 130%;
+    font-weight: bold;
+}
+
+main h3 {
+    font-size: 105%;
+    font-weight: bold;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Bold & shadow for "75th" */
+.shadow {
+    text-shadow: 3px 3px 5px rgba(128, 0, 0, 0.8);
+    font-weight: 900;
+    font-size: 150%;
+    color: #800000;
+}
+
+:root {
+    --global-color-1: #800000;
+}
